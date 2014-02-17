@@ -1,0 +1,8 @@
+﻿#include <QAxFactory>
+#include "ParkingProtocol/cparkingprotocol.h"
+
+QT_USE_NAMESPACE
+
+QAXFACTORY_BEGIN("{0389FAD0-31A9-D4E9-5C12-FA7F4011BB65}", "{A963AD3C-23DC-271E-B194-1ABC9BE7B6E3}")
+    QAXCLASS(CParkingProtocol)
+QAXFACTORY_END()

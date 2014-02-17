@@ -1,0 +1,32 @@
+#include "winver.h"
+
+1 TYPELIB "commonlib.rc"
+1 ICON DISCARDABLE "commonlib.ico"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+ FILEOS 0x00040000L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "北京市仟安科技有限责任公司"
+            VALUE "FileDescription", "仟安科技公共库"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "LegalCopyright", "北京市仟安科技有限责任公司版权所有，公司保留所有权利。"
+            VALUE "InternalName", "CommonLib.dll"
+            VALUE "OriginalFilename", "CommonLib.dll"
+            VALUE "ProductName", "仟安科技公共库"
+            VALUE "ProductVersion", "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
